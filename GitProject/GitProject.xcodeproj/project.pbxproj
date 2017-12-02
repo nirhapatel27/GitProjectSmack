@@ -129,7 +129,6 @@
 				CB20B6CA1FD26445007E0737 /* Model */,
 				CB20B6C91FD2643D007E0737 /* View */,
 				CB20B6C81FD26434007E0737 /* Controller */,
-				CB20B6C31FD261A6007E0737 /* Supporting Files */,
 				CB20B6991FD25B7A007E0737 /* Main.storyboard */,
 				CB20B6951FD25B7A007E0737 /* AppDelegate.swift */,
 				CB20B69C1FD25B7A007E0737 /* Assets.xcassets */,
@@ -155,13 +154,6 @@
 				CB20B6B71FD25B7B007E0737 /* Info.plist */,
 			);
 			path = GitProjectUITests;
-			sourceTree = "<group>";
-		};
-		CB20B6C31FD261A6007E0737 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CB20B6C81FD26434007E0737 /* Controller */ = {
