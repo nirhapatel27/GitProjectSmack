@@ -11,13 +11,13 @@
 		7722BA5DBA3760502E94E798 /* Pods_GitProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382A88D3297F80C69D9CB79D /* Pods_GitProject.framework */; };
 		809B25500F2FD0D89705A691 /* Pods_GitProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290A2B922978B992EF7E95F1 /* Pods_GitProjectTests.framework */; };
 		CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6951FD25B7A007E0737 /* AppDelegate.swift */; };
-		CB20B6981FD25B7A007E0737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6971FD25B7A007E0737 /* ViewController.swift */; };
 		CB20B69B1FD25B7A007E0737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB20B6991FD25B7A007E0737 /* Main.storyboard */; };
 		CB20B69D1FD25B7A007E0737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB20B69C1FD25B7A007E0737 /* Assets.xcassets */; };
 		CB20B6A01FD25B7A007E0737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB20B69E1FD25B7A007E0737 /* LaunchScreen.storyboard */; };
 		CB20B6AB1FD25B7A007E0737 /* GitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6AA1FD25B7A007E0737 /* GitProjectTests.swift */; };
 		CB20B6B61FD25B7A007E0737 /* GitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6B51FD25B7A007E0737 /* GitProjectUITests.swift */; };
-		CB20B6C71FD261F9007E0737 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6C61FD261F9007E0737 /* SWRevealViewController.m */; };
+		CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CB1FD2647B007E0737 /* ChatVC.swift */; };
+		CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		BB2305B0D87085CD6F4ED170 /* Pods-GitProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitProjectTests/Pods-GitProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB20B6921FD25B7A007E0737 /* GitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB20B6951FD25B7A007E0737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB20B6971FD25B7A007E0737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB20B69A1FD25B7A007E0737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB20B69C1FD25B7A007E0737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB20B69F1FD25B7A007E0737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,9 +59,8 @@
 		CB20B6B11FD25B7A007E0737 /* GitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB20B6B51FD25B7A007E0737 /* GitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitProjectUITests.swift; sourceTree = "<group>"; };
 		CB20B6B71FD25B7B007E0737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB20B6C41FD261F8007E0737 /* GitProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitProject-Bridging-Header.h"; sourceTree = "<group>"; };
-		CB20B6C51FD261F9007E0737 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		CB20B6C61FD261F9007E0737 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CB20B6CB1FD2647B007E0737 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 		CB20B6891FD25B7A007E0737 = {
 			isa = PBXGroup;
 			children = (
-				CB20B6C31FD261A6007E0737 /* Supporting Files */,
 				CB20B6941FD25B7A007E0737 /* GitProject */,
 				CB20B6A91FD25B7A007E0737 /* GitProjectTests */,
 				CB20B6B41FD25B7A007E0737 /* GitProjectUITests */,
@@ -129,9 +126,12 @@
 		CB20B6941FD25B7A007E0737 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
-				CB20B6951FD25B7A007E0737 /* AppDelegate.swift */,
-				CB20B6971FD25B7A007E0737 /* ViewController.swift */,
+				CB20B6CA1FD26445007E0737 /* Model */,
+				CB20B6C91FD2643D007E0737 /* View */,
+				CB20B6C81FD26434007E0737 /* Controller */,
+				CB20B6C31FD261A6007E0737 /* Supporting Files */,
 				CB20B6991FD25B7A007E0737 /* Main.storyboard */,
+				CB20B6951FD25B7A007E0737 /* AppDelegate.swift */,
 				CB20B69C1FD25B7A007E0737 /* Assets.xcassets */,
 				CB20B69E1FD25B7A007E0737 /* LaunchScreen.storyboard */,
 				CB20B6A11FD25B7A007E0737 /* Info.plist */,
@@ -160,11 +160,31 @@
 		CB20B6C31FD261A6007E0737 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB20B6C51FD261F9007E0737 /* SWRevealViewController.h */,
-				CB20B6C61FD261F9007E0737 /* SWRevealViewController.m */,
-				CB20B6C41FD261F8007E0737 /* GitProject-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB20B6C81FD26434007E0737 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB20B6CB1FD2647B007E0737 /* ChatVC.swift */,
+				CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB20B6C91FD2643D007E0737 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB20B6CA1FD26445007E0737 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DCC0E2708FD2BAA4DDD6869B /* Pods */ = {
@@ -462,9 +482,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB20B6981FD25B7A007E0737 /* ViewController.swift in Sources */,
+				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
+				CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */,
 				CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */,
-				CB20B6C71FD261F9007E0737 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
