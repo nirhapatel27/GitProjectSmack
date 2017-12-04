@@ -19,6 +19,7 @@
 		CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CB1FD2647B007E0737 /* ChatVC.swift */; };
 		CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */; };
 		CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7261FD271C0007E0737 /* SWRevealViewController.m */; };
+		CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7281FD2767C007E0737 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		CB20B7241FD271BE007E0737 /* GitProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		CB20B7251FD271C0007E0737 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CB20B7261FD271C0007E0737 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CB20B7281FD2767C007E0737 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		CB20B6C91FD2643D007E0737 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB20B7281FD2767C007E0737 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			files = (
 				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
 				CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */,
+				CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */,
 				CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */,
 				CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */,
 			);
