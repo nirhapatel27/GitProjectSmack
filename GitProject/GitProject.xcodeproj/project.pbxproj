@@ -20,6 +20,7 @@
 		CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */; };
 		CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7261FD271C0007E0737 /* SWRevealViewController.m */; };
 		CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7281FD2767C007E0737 /* GradientView.swift */; };
+		CBE54EBC1FD6163600D4DA4E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBB1FD6163600D4DA4E /* constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CB20B7251FD271C0007E0737 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CB20B7261FD271C0007E0737 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CB20B7281FD2767C007E0737 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CBE54EBB1FD6163600D4DA4E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		CB20B6941FD25B7A007E0737 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBE54EBA1FD6161300D4DA4E /* Utilities */,
 				CB20B7231FD271AC007E0737 /* Support Files */,
 				CB20B6CA1FD26445007E0737 /* Model */,
 				CB20B6C91FD2643D007E0737 /* View */,
@@ -195,6 +198,14 @@
 				CB20B7241FD271BE007E0737 /* GitProject-Bridging-Header.h */,
 			);
 			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CBE54EBA1FD6161300D4DA4E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CBE54EBB1FD6163600D4DA4E /* constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		DCC0E2708FD2BAA4DDD6869B /* Pods */ = {
@@ -497,6 +508,7 @@
 				CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */,
 				CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */,
 				CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */,
+				CBE54EBC1FD6163600D4DA4E /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
