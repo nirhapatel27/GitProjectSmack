@@ -22,6 +22,7 @@
 		CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7281FD2767C007E0737 /* GradientView.swift */; };
 		CBE54EBC1FD6163600D4DA4E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBB1FD6163600D4DA4E /* constants.swift */; };
 		CBE54EBE1FDA11BE00D4DA4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */; };
+		CBE54EC01FDA138900D4DA4E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		CB20B7281FD2767C007E0737 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CBE54EBB1FD6163600D4DA4E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				CB20B6CB1FD2647B007E0737 /* ChatVC.swift */,
 				CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */,
 				CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */,
+				CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			files = (
 				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
 				CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */,
+				CBE54EC01FDA138900D4DA4E /* CreateAccountVC.swift in Sources */,
 				CBE54EBE1FDA11BE00D4DA4E /* LoginVC.swift in Sources */,
 				CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */,
 				CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */,
