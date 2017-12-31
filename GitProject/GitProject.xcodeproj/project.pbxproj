@@ -20,6 +20,7 @@
 		CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */; };
 		CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7261FD271C0007E0737 /* SWRevealViewController.m */; };
 		CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7281FD2767C007E0737 /* GradientView.swift */; };
+		CBD930B61FF8CB9800B667EE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930B51FF8CB9800B667EE /* AuthService.swift */; };
 		CBE54EBC1FD6163600D4DA4E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBB1FD6163600D4DA4E /* constants.swift */; };
 		CBE54EBE1FDA11BE00D4DA4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */; };
 		CBE54EC01FDA138900D4DA4E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */; };
@@ -70,6 +71,7 @@
 		CB20B7251FD271C0007E0737 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CB20B7261FD271C0007E0737 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CB20B7281FD2767C007E0737 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CBD930B51FF8CB9800B667EE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CBE54EBB1FD6163600D4DA4E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		CB20B6941FD25B7A007E0737 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBD930B41FF8CB6E00B667EE /* Services */,
 				CBE54EBA1FD6161300D4DA4E /* Utilities */,
 				CB20B7231FD271AC007E0737 /* Support Files */,
 				CB20B6CA1FD26445007E0737 /* Model */,
@@ -204,6 +207,14 @@
 				CB20B7241FD271BE007E0737 /* GitProject-Bridging-Header.h */,
 			);
 			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CBD930B41FF8CB6E00B667EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBD930B51FF8CB9800B667EE /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		CBE54EBA1FD6161300D4DA4E /* Utilities */ = {
@@ -512,6 +523,7 @@
 				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
 				CB20B6CC1FD2647B007E0737 /* ChatVC.swift in Sources */,
 				CBE54EC01FDA138900D4DA4E /* CreateAccountVC.swift in Sources */,
+				CBD930B61FF8CB9800B667EE /* AuthService.swift in Sources */,
 				CBE54EBE1FDA11BE00D4DA4E /* LoginVC.swift in Sources */,
 				CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */,
 				CB20B6961FD25B7A007E0737 /* AppDelegate.swift in Sources */,
