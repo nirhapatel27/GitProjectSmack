@@ -107,7 +107,7 @@
                                     <action selector="loginBtnPressed:" destination="RHl-jW-VJi" eventType="touchUpInside" id="c9N-GQ-BYV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Q5A-ZU-AMV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Q5A-ZU-AMV" customClass="CircleImage" customModule="GitProject" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -339,7 +339,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="JTf-d5-YQz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="JTf-d5-YQz" customClass="CircleImage" customModule="GitProject" customModuleProvider="target">
                                 <rect key="frame" x="134" y="340" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -355,13 +355,22 @@
                                     <action selector="pickBGColorPressed:" destination="PQc-sp-cTB" eventType="touchUpInside" id="4yd-DY-yrm"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sE6-vY-1aI">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sE6-vY-1aI" firstAttribute="centerY" secondItem="bX4-CD-OVV" secondAttribute="centerY" id="4oT-Mr-4D1"/>
+                            <constraint firstItem="sE6-vY-1aI" firstAttribute="centerX" secondItem="bX4-CD-OVV" secondAttribute="centerX" id="abs-hx-bmb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rwr-DK-Vrk"/>
                     </view>
                     <connections>
                         <outlet property="emailTxt" destination="gTq-UM-4rr" id="dMT-xm-hop"/>
                         <outlet property="passTxt" destination="e2Z-DL-nDo" id="pkJ-JO-ujR"/>
+                        <outlet property="spinner" destination="sE6-vY-1aI" id="I8k-gU-k2Y"/>
                         <outlet property="userImg" destination="JTf-d5-YQz" id="UEI-C3-Woq"/>
                         <outlet property="usernameTxt" destination="AEA-6j-Wlj" id="HOc-U7-yWp"/>
                         <segue destination="h1g-US-Xt8" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="kgS-wy-zen"/>
