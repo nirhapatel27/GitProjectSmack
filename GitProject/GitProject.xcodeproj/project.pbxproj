@@ -26,6 +26,8 @@
 		CBD930BC2004056900B667EE /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930BB2004056900B667EE /* AvatarPickerVC.swift */; };
 		CBD930BE2004089B00B667EE /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930BD2004089B00B667EE /* AvatarCell.swift */; };
 		CBD930C0200412E100B667EE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930BF200412E100B667EE /* CircleImage.swift */; };
+		CBD930C32005561100B667EE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930C12005561100B667EE /* ProfileVC.swift */; };
+		CBD930C42005561100B667EE /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD930C22005561100B667EE /* ProfileVC.xib */; };
 		CBE54EBC1FD6163600D4DA4E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBB1FD6163600D4DA4E /* constants.swift */; };
 		CBE54EBE1FDA11BE00D4DA4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */; };
 		CBE54EC01FDA138900D4DA4E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */; };
@@ -82,6 +84,8 @@
 		CBD930BB2004056900B667EE /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		CBD930BD2004089B00B667EE /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		CBD930BF200412E100B667EE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CBD930C12005561100B667EE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CBD930C22005561100B667EE /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		CBE54EBB1FD6163600D4DA4E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 		CB20B6941FD25B7A007E0737 /* GitProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBD930C52005563200B667EE /* XIB */,
 				CBD930B41FF8CB6E00B667EE /* Services */,
 				CBE54EBA1FD6161300D4DA4E /* Utilities */,
 				CB20B7231FD271AC007E0737 /* Support Files */,
@@ -191,6 +196,7 @@
 				CBE54EBD1FDA11BE00D4DA4E /* LoginVC.swift */,
 				CBE54EBF1FDA138900D4DA4E /* CreateAccountVC.swift */,
 				CBD930BB2004056900B667EE /* AvatarPickerVC.swift */,
+				CBD930C12005561100B667EE /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +236,14 @@
 				CBD930B92003BACF00B667EE /* UserDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CBD930C52005563200B667EE /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				CBD930C22005561100B667EE /* ProfileVC.xib */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 		CBE54EBA1FD6161300D4DA4E /* Utilities */ = {
@@ -370,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD930C42005561100B667EE /* ProfileVC.xib in Resources */,
 				CB20B6A01FD25B7A007E0737 /* LaunchScreen.storyboard in Resources */,
 				CB20B69D1FD25B7A007E0737 /* Assets.xcassets in Resources */,
 				CB20B69B1FD25B7A007E0737 /* Main.storyboard in Resources */,
@@ -535,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD930C32005561100B667EE /* ProfileVC.swift in Sources */,
 				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
 				CBD930BC2004056900B667EE /* AvatarPickerVC.swift in Sources */,
 				CBD930B81FFC085500B667EE /* RoundedButton.swift in Sources */,
