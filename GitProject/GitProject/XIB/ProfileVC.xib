@@ -30,8 +30,9 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view alpha="0.40000000000000002" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-Fd-aJO" userLabel="bgView">
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-Fd-aJO" userLabel="bgView">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Nm-Zc-yBX">
@@ -91,12 +92,6 @@
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="J7v-Fd-aJO" secondAttribute="trailing" id="8Oo-y9-brC"/>
-                <constraint firstItem="J7v-Fd-aJO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Inc-8L-Rfk"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="J7v-Fd-aJO" secondAttribute="bottom" id="w4E-qh-F4t"/>
-                <constraint firstItem="J7v-Fd-aJO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zWj-v1-qKw"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
