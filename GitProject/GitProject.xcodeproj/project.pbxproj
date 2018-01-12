@@ -20,6 +20,8 @@
 		CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B6CD1FD2648D007E0737 /* ChannelVC.swift */; };
 		CB20B7271FD271C0007E0737 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7261FD271C0007E0737 /* SWRevealViewController.m */; };
 		CB20B7291FD2767C007E0737 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20B7281FD2767C007E0737 /* GradientView.swift */; };
+		CBADBE49200897FD0001C53A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBADBE48200897FD0001C53A /* Message.swift */; };
+		CBADBE4B200900960001C53A /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBADBE4A200900960001C53A /* KeyboardBoundView.swift */; };
 		CBD930B61FF8CB9800B667EE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930B51FF8CB9800B667EE /* AuthService.swift */; };
 		CBD930B81FFC085500B667EE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930B71FFC085500B667EE /* RoundedButton.swift */; };
 		CBD930BA2003BACF00B667EE /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD930B92003BACF00B667EE /* UserDataService.swift */; };
@@ -84,6 +86,8 @@
 		CB20B7251FD271C0007E0737 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CB20B7261FD271C0007E0737 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CB20B7281FD2767C007E0737 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CBADBE48200897FD0001C53A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CBADBE4A200900960001C53A /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		CBD930B51FF8CB9800B667EE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CBD930B71FFC085500B667EE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		CBD930B92003BACF00B667EE /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 				CBD930B71FFC085500B667EE /* RoundedButton.swift */,
 				CBD930BD2004089B00B667EE /* AvatarCell.swift */,
 				CBD930BF200412E100B667EE /* CircleImage.swift */,
+				CBADBE4A200900960001C53A /* KeyboardBoundView.swift */,
 				CBD930CA2005F39800B667EE /* ChannelCell.swift */,
 			);
 			path = View;
@@ -230,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				CBD930C820057C2900B667EE /* Channel.swift */,
+				CBADBE48200897FD0001C53A /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -569,12 +575,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBADBE4B200900960001C53A /* KeyboardBoundView.swift in Sources */,
 				CBD930D120087D5100B667EE /* SocketService.swift in Sources */,
 				CBD930C32005561100B667EE /* ProfileVC.swift in Sources */,
 				CBD930CB2005F39800B667EE /* ChannelCell.swift in Sources */,
 				CB20B6CE1FD2648D007E0737 /* ChannelVC.swift in Sources */,
 				CBD930BC2004056900B667EE /* AvatarPickerVC.swift in Sources */,
 				CBD930B81FFC085500B667EE /* RoundedButton.swift in Sources */,
+				CBADBE49200897FD0001C53A /* Message.swift in Sources */,
 				CBD930C920057C2900B667EE /* Channel.swift in Sources */,
 				CBD930C0200412E100B667EE /* CircleImage.swift in Sources */,
 				CBD930C720057BE500B667EE /* MessageService.swift in Sources */,
